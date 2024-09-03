@@ -59,6 +59,7 @@
     }
 
     .bakfickan {
+        background-image: url('../assets/images/bakfickan.jpeg');
         margin: 15px auto;
         display: flex;
         justify-content: center;
@@ -72,6 +73,7 @@
     }
 
     .scenen {
+        background-image: url('../assets/images/scenen.jpeg');
         margin: 15px auto;
         display: flex;
         justify-content: center;
