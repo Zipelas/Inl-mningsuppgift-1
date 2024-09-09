@@ -1,58 +1,30 @@
-body {
-    margin: 0;
-}
+@import url('main.css');
 
-header {
-    height: 490px;
-}
+@media screen and (min-width: 1024px) {
 
-.image-omoss {
-    background-image: url('../assets/images/utsidan.jpg');
-    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 490px;
-    width: 100%;
-}
-
-.top-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    height: 80px;
-    width: 100%;
+    .image-omoss {
+        background-image: url('../assets/images/utsidan.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
     }
 
-.logo {
-    height: 63px;
-    width: auto;
-    padding: 47px 10px 0px 68px;
-  }
+    .text-omoss {
+        color: white;
+        font-size: 8rem;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+    }
 
-  .menu {
+    article {
+        padding: 3rem;
+    }
 
-  }
-  
-.top-ul {
-    list-style-type: none;
-}
-li {
-    padding: 75px 75px 10px 10px;
-}
-
-.text-omoss {
-    color: white;
-    font-size: 85px;
-    position: absolute;
-    top: 50%;
-    left: 185px; 
-    transform: translate(-50%, -50%);
-    /* z-index: 1; */
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    .mat-o-dryck-multiple {
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
 }
