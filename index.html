@@ -15,6 +15,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <!-- Min CSS -->
         <link href="css/main.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
         <header class="image">
@@ -28,7 +29,22 @@
                                 Search
                             </button>
                         </form>
-                        <a class="link-underline" href="index.html"><img src="assets/images/burger-icon.png" alt="menyikon"></a>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class='bx bx-menu'></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">MAT</button></li>
+                                <li><button class="dropdown-item" type="button">SCENEN</button></li>
+                                <li><button class="dropdown-item" type="button">BAKFICKAN</button></li>
+                                <li><button class="dropdown-item" type="button">JOBBA MED OSS</button></li>
+                                <li>
+                                <a href="omoss.html" class="dropdown-item" type="button">OM OSS</a>
+                                </li>
+                                <li><button class="dropdown-item" type="button">KONTAKT</button></li>
+                            </ul>
+                        </div>
+                        <!-- <a class="link-underline" href="index.html"></a> -->
                     </li>
                 </ul>
             </nav>
@@ -88,6 +104,5 @@
             </ul>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
     </body>
 </html>

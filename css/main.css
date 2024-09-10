@@ -1,3 +1,7 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
 @media screen and (min-width: 1024px) {
 
     :root {
@@ -109,7 +113,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-
     }
 
     .top-nav {
@@ -131,7 +134,28 @@
         font-family: "Raleway", sans-serif;
         font-weight: bold;
         font-style: normal;
+    }
 
+    .top-li {
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown {
+        margin-right: 40px;
+    }
+
+    i {
+        font-size: 54px;
+    }
+
+    #dropdownMenu2 {
+        border: none;
+        color: white;
+        background-color: transparent;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2rem;
+        padding: 1rem;
     }
 
     .menu {
