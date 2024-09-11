@@ -1,7 +1,6 @@
 Saker som ska göras
 
 INDEX:
-Sociala medier med BOOTSTRAP
 Burger menu
 
 OM OSS:
@@ -9,3 +8,14 @@ Ljudklipp längst ner i högra hörnet
 Burger menu
 
 EFTERARBETE:
+
+	•Logotyp–Hemsidan ska ha en logotyp
+	•Media–Använd minst en media (till exempel bild, video, audio).
+•Navigering –Hemsidan måste ha minst en meny med länkar (länkarna behöver inte leda någonstansmen ska vara korrekt utformade)
+	•Formulär-Minst ett formulärsfält (sök, nyhetsbrev, kontakt)
+	•Semantisk HTML -Använd semantisk html korrekt (header, footer, main, nav mm)
+	•Rubriker -Använd rubriker korrekt (h1-h6)
+•Tillgänglighet –Koden ska vara tillgänglig.
+	•Använd minst ettobjekt (layout, meny, komponent, formulär, mm.)från ett ramverk (till exempel 	Bootstrap).Det räcker med att komponenten får stylingen från ramverket. Den behöver inteha 	egen styling.
+•Validera koden via W3C Markup Validation, implementering av eventuella ändringar ska genomföras.
+•Arbetet ska laddas upp på GitHub. Arbeta gärna med det underprojektets gång, historik finns att titta på.

@@ -1,0 +1,56 @@
+	G
+
+LOGOTYPE - OK
+
+MEDIA - Bilder + Ljudklipp
+
+NAVIGERING - Hamburgemeny
+
+FORMULÄR - Sökruta
+
+SEMANTISK HTML - Så gott det gick
+
+RUBRIKER - OK
+
+TILLGÄNGLIGHET - Wave och funkify
+
+RAMVERK - Bootstrap: Menyn ändrat ikon från "Boxikon" + margin-right: 40px;
+Sociala knappar: Stylat om textfärg, bakgrundsfärg och border-radius m.m.
+
+VALIDERING -  W3C Markup Validation + https://jigsaw.w3.org/ för css och fixat fel
+
+GITHUB - Lagt upp allt
+
+	VG
+
+OPTIMERING
+
+minst 3 ställen, till exempel återanvänd styling, anpassa filstorlekar:
+lazy loading
+rensat i koden
+återanvänt kod
+
+TILLGÄNGLIGHET - Wave och funkify
+Implementering av eventuella ändringar ska genomföras. Berätta gärna mer om detta under redovisningen
+
+RAMVERK - Bootstrap: Menyn ändrat ikon från "Boxikon" + margin-right: 40px;
+Sociala knappar: Stylat om textfärg, bakgrundsfärg och border-radius m.m.
+
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary" type="button" aria-label="dropdownmenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class='bx bx-menu'></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">MAT</button></li>
+                                <li><button class="dropdown-item" type="button">SCENEN</button></li>
+                                <li><button class="dropdown-item" type="button">BAKFICKAN</button></li>
+                                <li><button class="dropdown-item" type="button">JOBBA MED OSS</button></li>
+                                <li>
+                                <a href="omoss.html" class="dropdown-item">OM OSS</a>
+                                </li>
+                                <li><button class="dropdown-item" type="button">KONTAKT</button></li>
+                            </ul>
+                        </div>
+
+

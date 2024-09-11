@@ -19,8 +19,8 @@
     </head>
     <body>
         <header class="image-omoss">
-            <nav class="top-nav">
-                <a href="index.html"><img class="logo" src="assets/images/logo-neg.webp" alt="Röde orms logga"></a>
+            <nav class="top-nav" aria-label="Primary">
+                <a href="index.html"><img class="logo" src="assets/images/logo-neg.webp" alt="Röde orms logga" height="63" width="192"></a>
                 <ul class="top-ul">
                     <li class="top-li">
                         <form action="#">
@@ -29,18 +29,17 @@
                                 Search
                             </button>
                         </form>
-                        <div class="dropdown">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="dropdown" role="navigation" aria-label="Secondary">
+                            <button id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class='bx bx-menu'></i>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><a href="index.html" class="dropdown-item">START</a></li>
                                 <li><button class="dropdown-item" type="button">MAT</button></li>
                                 <li><button class="dropdown-item" type="button">SCENEN</button></li>
                                 <li><button class="dropdown-item" type="button">BAKFICKAN</button></li>
                                 <li><button class="dropdown-item" type="button">JOBBA MED OSS</button></li>
-                                <li>
-                                <a href="omoss.html" class="dropdown-item" type="button">OM OSS</a>
-                                </li>
+                                <li><a href="omoss.html" class="dropdown-item">OM OSS</a></li>
                                 <li><button class="dropdown-item" type="button">KONTAKT</button></li>
                             </ul>
                         </div>
@@ -52,9 +51,8 @@
             </div>
         </header>
         <main>
-            <audio controls>
-                <source src="/assets/audio/seagulls.mp3" type="audio/mp3">
-                Your browser does not support the audio element.
+            <audio controls aria-label="Seagulls shrieking">
+                <source src="/assets/audio/seagulls.mp3" type="audio/mp3">Your browser does not support the audio element.
             </audio>
             <article>                
                 <h3>Varför</h3>
@@ -73,11 +71,11 @@
     
                 <p class="p-style">Och en upplevelse för både öga, hjärta och gom är just vad det är att besöka oss.</p>
             </article>
-            <section>
+            <div>
                 <a href="index.html"> 
-                    <img class="mat-o-dryck-multiple" src="assets/images/seafood.webp" alt="Bild på kräftor" loading="lazy">
+                    <img class="mat-o-dryck-multiple" src="assets/images/seafood.webp" alt="Bild på kräftor" height="879" loading="lazy">
                 </a>
-            </section>
+            </div>
             <div>
                 <a class="btn btn-info" href="https://www.facebook.com/RodeOrmBryggrestaurang/" target="new" role="button">FACEBOOK</a>
                 <a class="btn btn-info" href="https://www.instagram.com/rodeormgrebbestad/" target="new" role="button">INSTAGRAM</a>

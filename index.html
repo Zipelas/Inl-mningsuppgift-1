@@ -19,8 +19,8 @@
     </head>
     <body>
         <header class="image">
-            <nav class="top-nav">
-                <img class="logo" src="assets/images/logo-neg.webp" alt="Röde orms logga">
+            <nav class="top-nav" aria-label="Primary">
+                <img class="logo" src="assets/images/logo-neg.webp" alt="Röde orms logga" height="63" width="192">
                 <ul class="top-ul">
                     <li class="top-li">
                         <form action="#">
@@ -29,8 +29,8 @@
                                 Search
                             </button>
                         </form>
-                        <div class="dropdown">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="dropdown" role="navigation" aria-label="Secondary">
+                            <button id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class='bx bx-menu'></i>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -38,9 +38,7 @@
                                 <li><button class="dropdown-item" type="button">SCENEN</button></li>
                                 <li><button class="dropdown-item" type="button">BAKFICKAN</button></li>
                                 <li><button class="dropdown-item" type="button">JOBBA MED OSS</button></li>
-                                <li>
-                                <a href="omoss.html" class="dropdown-item" type="button">OM OSS</a>
-                                </li>
+                                <li><a href="omoss.html" class="dropdown-item">OM OSS</a></li>
                                 <li><button class="dropdown-item" type="button">KONTAKT</button></li>
                             </ul>
                         </div>
@@ -64,17 +62,17 @@
                     </div>
                 </div>
             </section>
-                <div class="mat-o-dryck">
+            <div class="mat-o-dryck">
                     <div class="text-mat-o-dryck">MAT & DRYCK<br>FÖR ALLA<br>SMAKER</div>
-                </div>
+            </div>
             <section class="text-soc-medier">
                 <h2 class="h-style-xl">FÖLJ OSS PÅ<br>SOCIALA MEDIER</h2>
             </section>  
-            <section>
+            <div>
                 <a href="omoss.html"> 
-                    <img class="mat-o-dryck-multiple" src="assets/images/mat-o-dryck-multiple.webp" alt="Flera bilder på mat och dryck" loading="lazy">
+                    <img class="mat-o-dryck-multiple" src="assets/images/mat-o-dryck-multiple.webp" alt="Flera bilder på mat och dryck" height="879" loading="lazy">
                 </a>
-            </section>
+            </div>
             <div>
                 <a class="btn btn-info" href="https://www.facebook.com/RodeOrmBryggrestaurang/" target="new" role="button">FACEBOOK</a>
                 <a class="btn btn-info" href="https://www.instagram.com/rodeormgrebbestad/" target="new" role="button">INSTAGRAM</a>
@@ -85,7 +83,7 @@
             <ul class="footer-ul">
                 <li>
                     <a href="omoss.html">
-                        <img src="assets/images/logo-liten.webp" alt="Röde Orm logotype" loading="lazy" height="40" width="105">
+                        <img src="assets/images/logo-liten.webp" alt="Röde Orm logotype" loading="lazy" height="40" width="105" loading="lazy">
                     </a>
                 <li>&nbsp;</li>
                 <li><a href="#">MAT >></a></li>

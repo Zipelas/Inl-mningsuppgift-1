@@ -1,6 +1,6 @@
 @import url('main.css');
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 2024px) {
 
     .image-omoss {
         background-image: url('../assets/images/utsidan.jpg');
